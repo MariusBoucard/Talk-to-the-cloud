@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>840</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Add">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Remove">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>480</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Play">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Process">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>510</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Process standard</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Up">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>520</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Down">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>520</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Down</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>231</width>
+      <height>471</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="TextOutput">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>591</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ProcessBruit">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>510</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Process Bruité</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Slider">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>441</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Icone">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>image.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FileInfo">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>441</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nom :
+Taille :
+Dernière modification :
+Durée :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Time">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>80</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="langue">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Etat">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>500</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="syncbox">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>510</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Synchro nextcloud</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SyncLocCB">
+    <property name="geometry">
+     <rect>
+      <x>689</x>
+      <y>540</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Synchro locale</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>840</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="sauve"/>
+    <addaction name="Purge"/>
+    <addaction name="Quitter"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="aide"/>
+   </widget>
+   <widget class="QMenu" name="menuPreferences">
+    <property name="title">
+     <string>Preferences</string>
+    </property>
+    <addaction name="Preferences"/>
+    <addaction name="Sortielocale"/>
+    <addaction name="sortie_filenc"/>
+    <addaction name="syncloc"/>
+    <addaction name="classes"/>
+    <addaction name="Reinitialiser"/>
+    <addaction name="fichiers_temporaires"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuPreferences"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="aide">
+   <property name="text">
+    <string>Appeler de l'aide chez Marius</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="sauve">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="Purge">
+   <property name="text">
+    <string>Purger la liste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="Quitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="Preferences">
+   <property name="text">
+    <string>Nextcloud synchro</string>
+   </property>
+  </action>
+  <action name="Sortielocale">
+   <property name="text">
+    <string>Sortie en texte locale</string>
+   </property>
+  </action>
+  <action name="sortie_filenc">
+   <property name="text">
+    <string>Sortie nextcloud</string>
+   </property>
+  </action>
+  <action name="syncloc">
+   <property name="text">
+    <string>Chemin local enregistrements</string>
+   </property>
+  </action>
+  <action name="classes">
+   <property name="text">
+    <string>Gestion des classes</string>
+   </property>
+  </action>
+  <action name="Reinitialiser">
+   <property name="text">
+    <string>Reinitialiser tout</string>
+   </property>
+  </action>
+  <action name="fichiers_temporaires">
+   <property name="text">
+    <string>fichiers temporaires</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
